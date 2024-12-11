@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  width: 1280px;
+  height: 2008px;
+  color: white;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+}
+.header__logo {
+  display: flex;
+}
+.header__title {
+}
+.header__subtitle {
+}
+.header__image {
+}
+.main__title {
+}
+.main__cita-title {
+}
+.content {
+}
+.main__section {
+}
+.main__cita-author {
+}
+.main__subtitle {
+}
+.footer__copy {
+}
