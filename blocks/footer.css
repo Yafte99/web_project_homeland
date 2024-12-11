@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer__copy {
+  max-width: 194px;
+  max-width: 16x;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
