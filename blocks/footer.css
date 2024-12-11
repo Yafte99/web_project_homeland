@@ -4,8 +4,14 @@
 }
 .footer__copy {
   max-width: 194px;
-  max-width: 16x;
+  max-height: 16x;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .footer__copyright {
+    max-height: 14px;
+  }
 }

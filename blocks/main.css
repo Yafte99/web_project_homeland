@@ -5,7 +5,7 @@
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 92px auto;
 }
 .main__title {
   max-width: 830px;
@@ -29,15 +29,23 @@
   line-height: 1.6;
 }
 @media screen and (min-width: 545px) and (max-width: 1024px) {
-  .main__section {
+  .main {
     width: 90vw;
     margin: 90px 24px 88px;
   }
-}
-@media screen and (min-width: 545px) and (max-width: 1024px) {
   .main__title {
     max-width: 707px;
     font-size: 45px;
+    line-height: 1.1;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .main {
+    margin: 64px 16px;
+  }
+  .main__title {
+    max-width: 288px;
+    font-size: 32px;
     line-height: 1.1;
   }
 }
