@@ -1,7 +1,4 @@
-.main__content {
-  display: block;
-}
-.main__section {
+.main {
   max-width: 984px;
   display: flex;
   flex-direction: column;
